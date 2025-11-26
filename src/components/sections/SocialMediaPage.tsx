@@ -12,10 +12,10 @@ export function SocialMediaPage() {
       gradient: 'from-blue-600 to-blue-800',
       icon: '💊',
       social: {
-        whatsapp: '+911234567890',
-        facebook: 'https://facebook.com/pushpaagency',
+        whatsapp: 'https://chat.whatsapp.com/K08pX9BmA2QBhknokVG2Vx?mode=wwt',
+        facebook: 'https://chat.whatsapp.com/K08pX9BmA2QBhknokVG2Vx?mode=wwt',
         instagram: 'https://instagram.com/pushpaagency',
-        phone: '+911234567890'
+        phone: '+9196854 57389'
       }
     },
     {
@@ -24,10 +24,10 @@ export function SocialMediaPage() {
       gradient: 'from-blue-700 to-blue-900',
       icon: '💰',
       social: {
-        whatsapp: '+911234567891',
+        whatsapp: 'https://chat.whatsapp.com/F4OpqVAm7J110gSu0nFpVq?mode=wwt',
         facebook: 'https://facebook.com/pushpafinance',
         instagram: 'https://instagram.com/pushpafinance',
-        phone: '+911234567891'
+        phone: '+9196854 57389'
       }
     },
     {
@@ -36,10 +36,10 @@ export function SocialMediaPage() {
       gradient: 'from-gray-700 to-gray-900',
       icon: '🚗',
       social: {
-        whatsapp: '+911234567892',
+        whatsapp: 'https://chat.whatsapp.com/CcwCOVWilUzIgl91KJZyGM?mode=wwt',
         facebook: 'https://facebook.com/silverdrive',
         instagram: 'https://instagram.com/silverdrive',
-        phone: '+911234567892'
+        phone: '+9196854 57389'
       }
     },
     {
@@ -48,10 +48,10 @@ export function SocialMediaPage() {
       gradient: 'from-blue-600 to-indigo-800',
       icon: '💻',
       social: {
-        whatsapp: '+911234567893',
+        whatsapp: 'https://chat.whatsapp.com/EsYfSF8IKuHD06M75PNW0z?mode=wwt',
         facebook: 'https://facebook.com/pushpatech',
         instagram: 'https://instagram.com/pushpatech',
-        phone: '+911234567893'
+        phone: '+9196854 57389'
       }
     },
     {
@@ -60,10 +60,10 @@ export function SocialMediaPage() {
       gradient: 'from-green-700 to-green-900',
       icon: '🏠',
       social: {
-        whatsapp: '+911234567894',
+        whatsapp: 'https://chat.whatsapp.com/CcwCOVWilUzIgl91KJZyGM?mode=wwt',
         facebook: 'https://facebook.com/pushparealestate',
         instagram: 'https://instagram.com/pushparealestate',
-        phone: '+911234567894'
+        phone: '+9196854 57389'
       }
     },
     {
@@ -72,10 +72,10 @@ export function SocialMediaPage() {
       gradient: 'from-yellow-600 to-yellow-800',
       icon: '💎',
       social: {
-        whatsapp: '+911234567895',
+        whatsapp: 'https://chat.whatsapp.com/F4sQQWVR7pnEIipT81MHHV?mode=wwt',
         facebook: 'https://facebook.com/pushpajewels',
         instagram: 'https://instagram.com/pushpajewels',
-        phone: '+911234567895'
+        phone: '+9196854 57389'
       }
     }
   ];

@@ -6,11 +6,11 @@ import { motion } from 'motion/react';
 import { ArrowRight } from 'lucide-react';
 import Autoplay from 'embla-carousel-autoplay';
 import logo from '../assets/slider/pushpa.jpeg'
-import medical from '../assets/slider/medical.jpeg'
+import medical from '../assets/hdSlider/Agency.jpg'
 import propery from '../assets/slider/proprty.jpeg'
-import tech from '../assets/slider/technology.jpeg'
-import auto from '../assets/slider/auto.jpeg'
-import jwels from '../assets/slider/jwels.jpeg'
+import tech from '../assets/hdSlider/Technology.jpg'
+import auto from '../assets/hdSlider/Finance.jpg'
+import jwels from '../assets/hdSlider/okok.jpg'
 
 interface HeroSliderProps {
   onExplore: (businessId: string) => void;
@@ -93,7 +93,7 @@ export function HeroSlider({ onExplore }: HeroSliderProps) {
                 />
                 
                 {/* Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent" />
+                <div className="absolute inset-0  from-black/80 via-black/50 to-transparent" />
                 
                 {/* Content */}
                 <div className="container mx-auto px-4 h-full flex items-center relative z-10">
