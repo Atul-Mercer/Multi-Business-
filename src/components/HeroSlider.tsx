@@ -5,12 +5,13 @@ import { Button } from './ui/button';
 import { motion } from 'motion/react';
 import { ArrowRight } from 'lucide-react';
 import Autoplay from 'embla-carousel-autoplay';
-import logo from '../assets/slider/pushpa.jpeg'
-import medical from '../assets/hdSlider/Agency.jpg'
-import propery from '../assets/slider/proprty.jpeg'
-import tech from '../assets/hdSlider/Technology.jpg'
-import auto from '../assets/hdSlider/Finance.jpg'
-import jwels from '../assets/hdSlider/okok.jpg'
+import pushpaAgency from '../assets/hdSlider/PushpaAgency.jpg';
+import pushpaFinance from '../assets/hdSlider/PushpaFinance.jpg';
+// import pushpaJwels from '../assets/hdSlider/PushpaJwels.jpg';
+import pushpaJwels1 from '../assets/hdSlider/PushpaJwels1.jpg';
+import pushpaJwels2 from '../assets/hdSlider/PushpaJwels2.jpg';
+import silverDrive from '../assets/hdSlider/SilverDrive.jpg';
+import silverDriveProperty from '../assets/hdSlider/SilverDriveProperty.jpg';
 
 interface HeroSliderProps {
   onExplore: (businessId: string) => void;
@@ -27,7 +28,7 @@ export function HeroSlider({ onExplore }: HeroSliderProps) {
       title: '',
       subtitle: '',
       description: '',
-      imageUrl: logo,
+      imageUrl: pushpaFinance,
       buttonText: 'Explore Finance'
     },
     {
@@ -35,7 +36,7 @@ export function HeroSlider({ onExplore }: HeroSliderProps) {
       title: 'PUSHPA AGENCY',
       subtitle: 'Healthcare You Can Trust',
       description: 'Leading medical supplies distributor providing quality Ayurvedic And OTC products',
-      imageUrl: medical,
+      imageUrl: pushpaAgency,
       buttonText: 'Explore Medical' 
     },
     {
@@ -43,7 +44,7 @@ export function HeroSlider({ onExplore }: HeroSliderProps) {
       title: 'SILVER DRIVE',
       subtitle: 'Drive Your Dreams',
       description: 'Premium selection of pre-owned cars and bikes',
-      imageUrl: auto,
+      imageUrl: silverDrive,
       buttonText: 'Explore Vehicles'
     },
     {
@@ -51,7 +52,7 @@ export function HeroSlider({ onExplore }: HeroSliderProps) {
       title: 'TECHNOLOGY DEVELOPMENT',
       subtitle: 'Innovative Digital Solutions',
       description: 'Website & App Development, Digital Advertising, and Technology Training',
-      imageUrl: tech,
+      imageUrl: pushpaJwels1,
       buttonText: 'Explore Technology'
     },
     {
@@ -59,7 +60,7 @@ export function HeroSlider({ onExplore }: HeroSliderProps) {
       title: 'SILVER DRIVE PROPERTIES',
       subtitle: 'Your Dream Property Awaits',
       description: 'Buy and sell residential and commercial properties with ease',
-      imageUrl: propery,
+      imageUrl: silverDriveProperty,
       buttonText: 'Explore Properties'
     },
     {
@@ -67,7 +68,7 @@ export function HeroSlider({ onExplore }: HeroSliderProps) {
       title: 'PUSHPA JEWELS',
       subtitle: 'Exquisite Gold & Diamond Jewelry',
       description: 'Handcrafted Gold coated jewelry for every special occasion in your life',
-      imageUrl: jwels,
+      imageUrl: pushpaJwels2,
       buttonText: 'Explore Jewelry' 
     }
   ];
