@@ -89,7 +89,8 @@ export function HeroSlider({ onExplore }: HeroSliderProps) {
                 <ImageWithFallback
                   src={slide.imageUrl}
                   // alt={slide.title}
-                  className="absolute inset-0 w-full h-full "
+                  
+                   className="absolute inset-0 w-full h-full "
                   // object-cover
                 />
                 
